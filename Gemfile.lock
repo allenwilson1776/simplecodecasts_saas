@@ -63,6 +63,8 @@ GEM
     erubis (2.7.0)
     excon (0.45.3)
     execjs (2.5.2)
+    font-awesome-sass (4.3.0)
+      sass (~> 3.2)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     heroku (3.36.8)
@@ -181,9 +183,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (= 3.3.4)
+  bootstrap-sass (~> 3.3.4)
   byebug
   coffee-rails (~> 4.1.0)
+  font-awesome-sass (~> 4.3.0)
   heroku
   jbuilder (~> 2.0)
   jquery-rails
