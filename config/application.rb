@@ -1,7 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-gem 'devise', '3.4.1'
+require 'devise', '3.4.1'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.

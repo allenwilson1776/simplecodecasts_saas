@@ -8,6 +8,8 @@ gem 'sqlite3', group: [:development, :test]
 
 gem 'devise', '3.4.1'
 
+gem 'stripe', '1.16.1'
+
 #Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -63,7 +65,7 @@ group :development, :test do
   #gem 'devise', '3.4.1'
   
   #Use stripe for handling payments
-  gem 'stripe', '1.16.1'
+  #gem 'stripe', '1.16.1'
 
   #Use figaro to hide secret keys
   gem 'figaro', '1.0.0'
