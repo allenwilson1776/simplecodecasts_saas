@@ -69,5 +69,8 @@ group :development, :test do
 
   #Use figaro to hide secret keys
   gem 'figaro', '1.0.0'
+  
+  # Use paperclip for image uploads
+  gem 'paperclip', '4.3.0'
 end
 
